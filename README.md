@@ -8,3 +8,11 @@ To run the application, open command link and run "mvn spring-boot:run" or alter
 
 After running the application, you can access the Spring Actuator endpoint "/actuator/health"
 
+## Accept Cert
+The certificate is self signed so you possibly will need to accept the cert by adding an exception in your browser.
+
+### Via HTTPS
+https://localhost:8443/actuator/health
+
+### Via HTTP
+http://localhost:8080/actuator/health
